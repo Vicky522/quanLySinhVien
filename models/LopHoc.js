@@ -5,6 +5,10 @@ var LopHoc = function () {
   // User B
   this.tenLopHoc="front-end 54";
   this.layDanhSachSinhVien = function () {
-    return this.layDanhSachSinhVien;
+    return this.danhSachSinhVien;
+  };
+
+  this.timKiemSinhVien = function (maSV) {
+    console.log("da tim thay sinh vien !!");
   };
 };
